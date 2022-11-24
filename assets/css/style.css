@@ -1,0 +1,214 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto&display=swap');
+body, h2, h3, h4, h5, h6, input, textarea {
+  color: #24292F;
+	font-family: 'Roboto', 'Noto Sans JP', sans-serif;
+}
+
+section a {
+  color: rgb(0,200,200);
+  background: linear-gradient(90deg, rgba(0,200,100,1) 0%, rgba(0,100,200,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+pre, code, input, textarea, button{
+  font-size: 14px;
+  line-height: 1.2em;
+}
+
+/* basis */
+body {
+  /* background: #F0F2F5; */
+  background: #F9FDFD;
+  margin: 0;
+  padding-top: 75px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 80px;
+  box-sizing: border-box;
+  min-height: 100vh;
+	overflow-x: hidden;
+}
+
+header {
+  color: #FFFFFF;
+  background: #24292F;
+  /* box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.24); */
+  /* background: linear-gradient(90deg, rgba(0,250,200,0.1) 0%, rgba(0,200,250,0.1) 100%); */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+	top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: 64px;
+  line-height: 20px;
+  padding-top: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 14px;
+  box-sizing: border-box;
+}
+
+header::after {
+  content: "";
+  background: rgb(0,250,200);
+  background: linear-gradient(90deg, rgba(0,230,180,1) 0%, rgba(0,180,230,1) 100%);
+  height: 2px;
+  width: 100%;
+  position: fixed;
+	top: 64px;
+  left: 0;
+}
+
+header .logo {
+  /* color: #24292F; */
+  color: #FFFFFF;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .logo img{
+  width: 28px;
+  height: 28px;
+  padding-right: 3px;
+}
+
+header .logo h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: bold;
+  /* color: rgb(0,200,200);
+  background: linear-gradient(90deg, rgba(0,200,100,1) 0%, rgba(0,100,200,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+
+header .logo h1 span {
+  padding-left: 5px;
+  line-height: 1em;
+  color: rgb(0,200,200);
+  background: linear-gradient(90deg, rgba(0,255,200,1) 0%, rgba(0,200,255,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+header .menu img {
+  width: 28px;
+  height: 28px;
+}
+
+main {
+  min-height: calc(100vh - 128px);
+}
+
+footer{
+  color: rgba(0, 0, 0, 0.54);
+	border-top: 1px solid rgba(0, 0, 0, 0.24);
+	display: flex;
+	align-items: center;
+  justify-content: center;
+  height: 64px;
+  margin-top: 24px;
+  margin-bottom: -84px;
+}
+
+@media screen and (min-width:840px) {
+  body, header {
+    padding-left: calc((100vw - 800px) / 2);
+    padding-right: calc((100vw - 800px) / 2);
+  }
+}
+
+/* main */
+section {
+  margin-top: -55px;
+  padding-top: 95px;
+}
+
+section h1{
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 30px;
+  display: block;
+}
+
+.columns {
+  background: #FFFFFF;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px -2px #000a3c1a;
+  display: flex;
+  flex-direction: column;
+}
+
+.columns div:first-child{
+  width: calc(100% - 250px);
+}
+
+.columns div:last-child{
+  width: 200px;
+}
+
+@media screen and (min-width:840px) {
+  .columns {
+    flex-direction: row;
+  }
+  .columns div:last-child{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }  
+}
+
+#qrcode {
+  width: 100%;
+}
+
+/* UI */
+
+pre, input, textarea button {
+  margin-bottom: 15px;
+}
+
+button {
+  background-image: linear-gradient(180deg, #f6f8fa, #ebf0f4 90%);
+  border-radius: 6px;
+  padding: 5px 15px;
+  line-height: 20px;
+  box-sizing: border-box;
+  border: 1px solid rgba(27,31,36,0.25);
+  
+}
+
+button:hover {
+  cursor: pointer;
+  color: #595959;
+  border-color: #ccd1d5;
+}
+
+button:active {
+  background: #ebf0f4;
+}
+
+input, textarea{
+  width: 100%;
+  max-width: 100%;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  border: 1px solid rgba(27,31,36,0.25)
+}
+
+textarea {
+  word-wrap: break-word;
+  resize: vertical;
+  height: 100px;
+}

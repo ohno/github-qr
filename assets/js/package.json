@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "qr-code-styling": "^1.6.0-rc.1"
+  }
+}

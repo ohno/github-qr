@@ -1,2 +1,3 @@
-# github-qr
-Unofficial QR code generator for GitHub profiles and projects.
+# GitHub QR
+
+This is an unofficial QR code generator for GitHub profiles and projects. You must follow [GitHub's guidelines](https://github.com/logos) to use. Icons of [QR code](https://fonts.google.com/icons?selected=Material%20Icons%20Round%3Aqr_code%3A) and [menu](https://fonts.google.com/icons?selected=Material%20Icons%20Round%3Amenu%3A) are provided by [Google Fonts](https://fonts.google.com/icons). This project depends on [QR Code Styling](https://github.com/kozakdenys/qr-code-styling) by [Denys Kozak](https://github.com/kozakdenys). More options are available [here](https://qr-code-styling.com/).
