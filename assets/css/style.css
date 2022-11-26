@@ -7,9 +7,6 @@ body, h2, h3, h4, h5, h6, input, textarea {
 
 section a {
   color: #00C8C8;
-  /* background: linear-gradient(90deg, rgba(0,200,100,1) 0%, rgba(0,100,200,1) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
 }
 
 pre, code, input, textarea, button{
@@ -18,18 +15,20 @@ pre, code, input, textarea, button{
 }
 
 /* basis */
+html{
+  height: -webkit-fill-available;
+}
+
 body {
-  /* background: #F0F2F5; */
-  /* background: #F9FDFD; */
-  /* background: #24292F; */
   background: #FFFFFF;
   margin: 0;
   padding-top: 64px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: calc((100vw - 800px) / 2);
+  padding-right: calc((100vw - 800px) / 2);
   padding-bottom: 64px;
   box-sizing: border-box;
   min-height: 100vh;
+  min-height: -webkit-fill-available;
 	overflow-x: hidden;
 }
 
@@ -49,8 +48,8 @@ header {
   height: 64px;
   line-height: 20px;
   padding-top: 18px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: calc((100vw - 800px) / 2);
+  padding-right: calc((100vw - 800px) / 2);
   padding-bottom: 14px;
   box-sizing: border-box;
 }
@@ -114,10 +113,25 @@ footer{
   box-sizing: border-box;
 }
 
-@media screen and (min-width:840px) {
+@media screen and (max-width:840px) {
+  body {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
   body, header {
-    padding-left: calc((100vw - 800px) / 2);
-    padding-right: calc((100vw - 800px) / 2);
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  header {
+    height: 60px;
+    padding-top: 16px;
+  }
+  footer {
+    height: 60px;
+    margin-bottom: -60px;
+  }
+  main {
+    min-height: calc(100vh - 120px);
   }
 }
 
@@ -144,10 +158,19 @@ footer{
   text-align: justify;
 }
 
+@media screen and (max-width:840px) {
+  .section--2 {
+    padding-bottom: 20px;
+  }
+  .section--3 {
+    padding-bottom: 0;
+  }
+}
+
 .qrcode-wrapper {
   background: #FFFFFFCC;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-  width: fit-content;
+  width: 200px;
   padding-top: 25px;
   padding-left: 25px;
   padding-right: 25px;
@@ -168,7 +191,7 @@ footer{
 }
 
 #qrcode {
-  width: fit-content;
+  width: 200px;
 }
 
 input {
