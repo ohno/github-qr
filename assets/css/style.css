@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto&display=swap');
 body, h2, h3, h4, h5, h6, input, textarea {
   color: #24292F;
+  font-size: 16px;
+  line-height: 1.6em;
 	font-family: 'Roboto', 'Noto Sans JP', sans-serif;
 }
 
@@ -35,8 +37,8 @@ body {
 header {
   z-index: 2;
   color: #24292F;
-  background: #FFFFFFCC;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  background: #FFFFFFF0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.20);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -104,7 +106,7 @@ footer{
   z-index: 2;
   position: relative;
   color: rgba(0, 0, 0, 0.54);
-	border-top: 1px solid rgba(0, 0, 0, 0.25);
+	border-top: 1px solid rgba(0, 0, 0, 0.20);
 	display: flex;
 	align-items: center;
   justify-content: center;
@@ -168,8 +170,8 @@ footer{
 }
 
 .qrcode-wrapper {
-  background: #FFFFFFCC;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  background: #FFFFFFF0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.20);
   width: 200px;
   padding-top: 25px;
   padding-left: 25px;
@@ -180,13 +182,12 @@ footer{
 }
 
 .qrcode-wrapper:focus-within {
-  background: #FFFFFFDD;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
-  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.40);
   transition: 0.3s;
 }
 
-.qrcode-wrapper:focus-within input {
+.qrcode-wrapper:focus-within input,
+.qrcode-wrapper:focus-within textarea {
   color: #00C8C8;
 }
 
@@ -194,15 +195,20 @@ footer{
   width: 200px;
 }
 
-input {
-  width: 100%;
-  height: 60px;
+input,
+input[type="text"] {
+  width: 200px;
+  height: auto;
+  min-height: 60px;
   text-align: center;
   box-sizing: border-box;
   border-radius: 20px;
   outline: none;
   resize: vertical;
   background: none;
+  white-space: pre-line;
+  word-break: break-all;
+  overflow-wrap: anywhere;
 }
 
 button {
@@ -212,14 +218,13 @@ button {
   padding: 10px;
   line-height: 20px;
   box-sizing: border-box;
-  background: #00C8C8CC;
+  background: #00C8C8F0;
   color: #FFFFFF;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.20);
   transition: 0.2s;
 }
 
 button:hover {
-  cursor: pointer;
-  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.40);
   transition: 0.3s;
 }

@@ -63,7 +63,7 @@ a, button {
 	color: unset;
   transition: 0.2s;
 }
-a:hover {
+a:hover, button:hover {
   opacity: 0.6;
   transition: 0.2s;
   cursor: pointer;

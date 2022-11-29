@@ -33,7 +33,7 @@
   animation: var(--bubble-sway-type) var(--bubble-sway-duration) var(--bubble-sway-delay) ease-in-out alternate infinite;
 }
 .bubble:nth-child(0) {
-  --bubble-color: #C7243A;
+  --bubble-color: #636ED2;
   --bubble-left-offset: 31vw;
   --bubble-radius: 6vw;
   --bubble-float-duration: 11s;
@@ -43,7 +43,7 @@
   --bubble-sway-type: sway-right-to-left;
 }
 .bubble:nth-child(1) {
-  --bubble-color: #C7243A;
+  --bubble-color: #636ED2;
   --bubble-left-offset: 58vw;
   --bubble-radius: 1vw;
   --bubble-float-duration: 8s;
@@ -53,7 +53,7 @@
   --bubble-sway-type: sway-left-to-right;
 }
 .bubble:nth-child(2) {
-  --bubble-color: #C7243A;
+  --bubble-color: #636ED2;
   --bubble-left-offset: 56vw;
   --bubble-radius: 10vw;
   --bubble-float-duration: 12s;
@@ -63,7 +63,7 @@
   --bubble-sway-type: sway-left-to-right;
 }
 .bubble:nth-child(3) {
-  --bubble-color: #C7243A;
+  --bubble-color: #636ED2;
   --bubble-left-offset: 88vw;
   --bubble-radius: 3vw;
   --bubble-float-duration: 9s;
@@ -73,7 +73,7 @@
   --bubble-sway-type: sway-right-to-left;
 }
 .bubble:nth-child(4) {
-  --bubble-color: #C7243A;
+  --bubble-color: #636ED2;
   --bubble-left-offset: 100vw;
   --bubble-radius: 4vw;
   --bubble-float-duration: 9s;
@@ -83,7 +83,7 @@
   --bubble-sway-type: sway-left-to-right;
 }
 .bubble:nth-child(5) {
-  --bubble-color: #B61972;
+  --bubble-color: #A063D2;
   --bubble-left-offset: 15vw;
   --bubble-radius: 4vw;
   --bubble-float-duration: 8s;
@@ -93,7 +93,7 @@
   --bubble-sway-type: sway-right-to-left;
 }
 .bubble:nth-child(6) {
-  --bubble-color: #B61972;
+  --bubble-color: #A063D2;
   --bubble-left-offset: 44vw;
   --bubble-radius: 3vw;
   --bubble-float-duration: 9s;
@@ -103,7 +103,7 @@
   --bubble-sway-type: sway-right-to-left;
 }
 .bubble:nth-child(7) {
-  --bubble-color: #B61972;
+  --bubble-color: #A063D2;
   --bubble-left-offset: 26vw;
   --bubble-radius: 4vw;
   --bubble-float-duration: 7s;
@@ -113,7 +113,7 @@
   --bubble-sway-type: sway-right-to-left;
 }
 .bubble:nth-child(8) {
-  --bubble-color: #B61972;
+  --bubble-color: #A063D2;
   --bubble-left-offset: 27vw;
   --bubble-radius: 10vw;
   --bubble-float-duration: 6s;
@@ -123,7 +123,7 @@
   --bubble-sway-type: sway-left-to-right;
 }
 .bubble:nth-child(9) {
-  --bubble-color: #B61972;
+  --bubble-color: #A063D2;
   --bubble-left-offset: 73vw;
   --bubble-radius: 3vw;
   --bubble-float-duration: 11s;
@@ -133,7 +133,7 @@
   --bubble-sway-type: sway-right-to-left;
 }
 .bubble:nth-child(10) {
-  --bubble-color: #932674;
+  --bubble-color: #F0EA4B;
   --bubble-left-offset: 100vw;
   --bubble-radius: 8vw;
   --bubble-float-duration: 7s;
@@ -143,7 +143,7 @@
   --bubble-sway-type: sway-right-to-left;
 }
 .bubble:nth-child(11) {
-  --bubble-color: #932674;
+  --bubble-color: #F0EA4B;
   --bubble-left-offset: 1vw;
   --bubble-radius: 3vw;
   --bubble-float-duration: 11s;
@@ -153,7 +153,7 @@
   --bubble-sway-type: sway-right-to-left;
 }
 .bubble:nth-child(12) {
-  --bubble-color: #932674;
+  --bubble-color: #F0EA4B;
   --bubble-left-offset: 16vw;
   --bubble-radius: 6vw;
   --bubble-float-duration: 9s;
@@ -163,7 +163,7 @@
   --bubble-sway-type: sway-left-to-right;
 }
 .bubble:nth-child(13) {
-  --bubble-color: #932674;
+  --bubble-color: #F0EA4B;
   --bubble-left-offset: 39vw;
   --bubble-radius: 8vw;
   --bubble-float-duration: 12s;
@@ -173,7 +173,7 @@
   --bubble-sway-type: sway-left-to-right;
 }
 .bubble:nth-child(14) {
-  --bubble-color: #932674;
+  --bubble-color: #F0EA4B;
   --bubble-left-offset: 80vw;
   --bubble-radius: 9vw;
   --bubble-float-duration: 9s;
@@ -183,7 +183,7 @@
   --bubble-sway-type: sway-left-to-right;
 }
 .bubble:nth-child(15) {
-  --bubble-color: #5D639E;
+  --bubble-color: #00A7A7;
   --bubble-left-offset: 64vw;
   --bubble-radius: 2vw;
   --bubble-float-duration: 7s;
@@ -193,7 +193,7 @@
   --bubble-sway-type: sway-right-to-left;
 }
 .bubble:nth-child(16) {
-  --bubble-color: #5D639E;
+  --bubble-color: #00A7A7;
   --bubble-left-offset: 72vw;
   --bubble-radius: 8vw;
   --bubble-float-duration: 6s;
@@ -203,7 +203,7 @@
   --bubble-sway-type: sway-right-to-left;
 }
 .bubble:nth-child(17) {
-  --bubble-color: #5D639E;
+  --bubble-color: #00A7A7;
   --bubble-left-offset: 93vw;
   --bubble-radius: 3vw;
   --bubble-float-duration: 6s;
@@ -213,7 +213,7 @@
   --bubble-sway-type: sway-right-to-left;
 }
 .bubble:nth-child(18) {
-  --bubble-color: #5D639E;
+  --bubble-color: #00A7A7;
   --bubble-left-offset: 26vw;
   --bubble-radius: 7vw;
   --bubble-float-duration: 12s;
@@ -223,7 +223,7 @@
   --bubble-sway-type: sway-left-to-right;
 }
 .bubble:nth-child(19) {
-  --bubble-color: #5D639E;
+  --bubble-color: #00A7A7;
   --bubble-left-offset: 20vw;
   --bubble-radius: 9vw;
   --bubble-float-duration: 11s;
@@ -233,7 +233,7 @@
   --bubble-sway-type: sway-left-to-right;
 }
 .bubble:nth-child(20) {
-  --bubble-color: #007AB7;
+  --bubble-color: #007BB7;
   --bubble-left-offset: 72vw;
   --bubble-radius: 4vw;
   --bubble-float-duration: 9s;
@@ -243,7 +243,7 @@
   --bubble-sway-type: sway-left-to-right;
 }
 .bubble:nth-child(21) {
-  --bubble-color: #007AB7;
+  --bubble-color: #007BB7;
   --bubble-left-offset: 44vw;
   --bubble-radius: 9vw;
   --bubble-float-duration: 9s;
@@ -253,7 +253,7 @@
   --bubble-sway-type: sway-left-to-right;
 }
 .bubble:nth-child(22) {
-  --bubble-color: #007AB7;
+  --bubble-color: #007BB7;
   --bubble-left-offset: 52vw;
   --bubble-radius: 3vw;
   --bubble-float-duration: 8s;
@@ -263,7 +263,7 @@
   --bubble-sway-type: sway-left-to-right;
 }
 .bubble:nth-child(23) {
-  --bubble-color: #007AB7;
+  --bubble-color: #007BB7;
   --bubble-left-offset: 55vw;
   --bubble-radius: 7vw;
   --bubble-float-duration: 9s;
@@ -273,7 +273,7 @@
   --bubble-sway-type: sway-right-to-left;
 }
 .bubble:nth-child(24) {
-  --bubble-color: #007AB7;
+  --bubble-color: #007BB7;
   --bubble-left-offset: 75vw;
   --bubble-radius: 6vw;
   --bubble-float-duration: 6s;
@@ -283,7 +283,7 @@
   --bubble-sway-type: sway-left-to-right;
 }
 .bubble:nth-child(25) {
-  --bubble-color: #0086AB;
+  --bubble-color: #007676;
   --bubble-left-offset: 90vw;
   --bubble-radius: 10vw;
   --bubble-float-duration: 12s;
@@ -293,7 +293,7 @@
   --bubble-sway-type: sway-left-to-right;
 }
 .bubble:nth-child(26) {
-  --bubble-color: #0086AB;
+  --bubble-color: #007676;
   --bubble-left-offset: 76vw;
   --bubble-radius: 6vw;
   --bubble-float-duration: 10s;
@@ -303,7 +303,7 @@
   --bubble-sway-type: sway-left-to-right;
 }
 .bubble:nth-child(27) {
-  --bubble-color: #0086AB;
+  --bubble-color: #007676;
   --bubble-left-offset: 56vw;
   --bubble-radius: 2vw;
   --bubble-float-duration: 9s;
@@ -313,7 +313,7 @@
   --bubble-sway-type: sway-left-to-right;
 }
 .bubble:nth-child(28) {
-  --bubble-color: #0086AB;
+  --bubble-color: #007676;
   --bubble-left-offset: 5vw;
   --bubble-radius: 4vw;
   --bubble-float-duration: 12s;
@@ -323,7 +323,7 @@
   --bubble-sway-type: sway-left-to-right;
 }
 .bubble:nth-child(29) {
-  --bubble-color: #0086AB;
+  --bubble-color: #007676;
   --bubble-left-offset: 4vw;
   --bubble-radius: 2vw;
   --bubble-float-duration: 6s;
@@ -333,7 +333,7 @@
   --bubble-sway-type: sway-right-to-left;
 }
 .bubble:nth-child(30) {
-  --bubble-color: #009250;
+  --bubble-color: #E0F8F8;
   --bubble-left-offset: 15vw;
   --bubble-radius: 10vw;
   --bubble-float-duration: 9s;
@@ -343,7 +343,7 @@
   --bubble-sway-type: sway-right-to-left;
 }
 .bubble:nth-child(31) {
-  --bubble-color: #009250;
+  --bubble-color: #E0F8F8;
   --bubble-left-offset: 0vw;
   --bubble-radius: 2vw;
   --bubble-float-duration: 7s;
@@ -353,7 +353,7 @@
   --bubble-sway-type: sway-left-to-right;
 }
 .bubble:nth-child(32) {
-  --bubble-color: #009250;
+  --bubble-color: #E0F8F8;
   --bubble-left-offset: 31vw;
   --bubble-radius: 10vw;
   --bubble-float-duration: 7s;
@@ -363,7 +363,7 @@
   --bubble-sway-type: sway-left-to-right;
 }
 .bubble:nth-child(33) {
-  --bubble-color: #009250;
+  --bubble-color: #E0F8F8;
   --bubble-left-offset: 76vw;
   --bubble-radius: 9vw;
   --bubble-float-duration: 7s;
@@ -373,7 +373,7 @@
   --bubble-sway-type: sway-right-to-left;
 }
 .bubble:nth-child(34) {
-  --bubble-color: #009250;
+  --bubble-color: #E0F8F8;
   --bubble-left-offset: 60vw;
   --bubble-radius: 1vw;
   --bubble-float-duration: 9s;
@@ -383,7 +383,7 @@
   --bubble-sway-type: sway-left-to-right;
 }
 .bubble:nth-child(35) {
-  --bubble-color: #A4C520;
+  --bubble-color: #9EFFFF;
   --bubble-left-offset: 14vw;
   --bubble-radius: 4vw;
   --bubble-float-duration: 6s;
@@ -393,7 +393,7 @@
   --bubble-sway-type: sway-left-to-right;
 }
 .bubble:nth-child(36) {
-  --bubble-color: #A4C520;
+  --bubble-color: #9EFFFF;
   --bubble-left-offset: 63vw;
   --bubble-radius: 1vw;
   --bubble-float-duration: 10s;
@@ -403,7 +403,7 @@
   --bubble-sway-type: sway-right-to-left;
 }
 .bubble:nth-child(37) {
-  --bubble-color: #A4C520;
+  --bubble-color: #9EFFFF;
   --bubble-left-offset: 80vw;
   --bubble-radius: 2vw;
   --bubble-float-duration: 10s;
@@ -413,7 +413,7 @@
   --bubble-sway-type: sway-left-to-right;
 }
 .bubble:nth-child(38) {
-  --bubble-color: #A4C520;
+  --bubble-color: #9EFFFF;
   --bubble-left-offset: 34vw;
   --bubble-radius: 6vw;
   --bubble-float-duration: 7s;
@@ -423,7 +423,7 @@
   --bubble-sway-type: sway-left-to-right;
 }
 .bubble:nth-child(39) {
-  --bubble-color: #A4C520;
+  --bubble-color: #9EFFFF;
   --bubble-left-offset: 44vw;
   --bubble-radius: 7vw;
   --bubble-float-duration: 10s;
@@ -433,7 +433,7 @@
   --bubble-sway-type: sway-right-to-left;
 }
 .bubble:nth-child(40) {
-  --bubble-color: #FFE600;
+  --bubble-color: #3CABE1;
   --bubble-left-offset: 82vw;
   --bubble-radius: 4vw;
   --bubble-float-duration: 11s;
@@ -443,7 +443,7 @@
   --bubble-sway-type: sway-left-to-right;
 }
 .bubble:nth-child(41) {
-  --bubble-color: #FFE600;
+  --bubble-color: #3CABE1;
   --bubble-left-offset: 81vw;
   --bubble-radius: 8vw;
   --bubble-float-duration: 6s;
@@ -453,7 +453,7 @@
   --bubble-sway-type: sway-right-to-left;
 }
 .bubble:nth-child(42) {
-  --bubble-color: #FFE600;
+  --bubble-color: #3CABE1;
   --bubble-left-offset: 60vw;
   --bubble-radius: 8vw;
   --bubble-float-duration: 12s;
@@ -463,7 +463,7 @@
   --bubble-sway-type: sway-right-to-left;
 }
 .bubble:nth-child(43) {
-  --bubble-color: #FFE600;
+  --bubble-color: #3CABE1;
   --bubble-left-offset: 14vw;
   --bubble-radius: 10vw;
   --bubble-float-duration: 7s;
@@ -473,7 +473,7 @@
   --bubble-sway-type: sway-left-to-right;
 }
 .bubble:nth-child(44) {
-  --bubble-color: #FFE600;
+  --bubble-color: #3CABE1;
   --bubble-left-offset: 70vw;
   --bubble-radius: 9vw;
   --bubble-float-duration: 7s;
@@ -483,7 +483,7 @@
   --bubble-sway-type: sway-right-to-left;
 }
 .bubble:nth-child(45) {
-  --bubble-color: #EDAD0B;
+  --bubble-color: #3CCDE1;
   --bubble-left-offset: 14vw;
   --bubble-radius: 5vw;
   --bubble-float-duration: 11s;
@@ -493,7 +493,7 @@
   --bubble-sway-type: sway-left-to-right;
 }
 .bubble:nth-child(46) {
-  --bubble-color: #EDAD0B;
+  --bubble-color: #3CCDE1;
   --bubble-left-offset: 82vw;
   --bubble-radius: 10vw;
   --bubble-float-duration: 11s;
@@ -503,7 +503,7 @@
   --bubble-sway-type: sway-left-to-right;
 }
 .bubble:nth-child(47) {
-  --bubble-color: #EDAD0B;
+  --bubble-color: #3CCDE1;
   --bubble-left-offset: 31vw;
   --bubble-radius: 8vw;
   --bubble-float-duration: 10s;
@@ -513,7 +513,7 @@
   --bubble-sway-type: sway-right-to-left;
 }
 .bubble:nth-child(48) {
-  --bubble-color: #EDAD0B;
+  --bubble-color: #3CCDE1;
   --bubble-left-offset: 74vw;
   --bubble-radius: 3vw;
   --bubble-float-duration: 11s;
@@ -523,7 +523,7 @@
   --bubble-sway-type: sway-left-to-right;
 }
 .bubble:nth-child(49) {
-  --bubble-color: #EDAD0B;
+  --bubble-color: #3CCDE1;
   --bubble-left-offset: 81vw;
   --bubble-radius: 8vw;
   --bubble-float-duration: 7s;
@@ -533,7 +533,7 @@
   --bubble-sway-type: sway-right-to-left;
 }
 .bubble:nth-child(50) {
-  --bubble-color: #EDAD0B;
+  --bubble-color: #3CCDE1;
   --bubble-left-offset: 78vw;
   --bubble-radius: 4vw;
   --bubble-float-duration: 9s;
