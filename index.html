@@ -23,7 +23,7 @@
       <h1>GitHub:<span>QR</span></h1>
     </a>
     <a class="menu" href="https://github.com/sponsors/ohno">
-      <img src ="./assets/img/heart.svg"/>
+      <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><path class="heart" stroke="#BF3989" stroke-width="2" fill="none" d="M13.35 20.13c-.76.69-1.93.69-2.69-.01l-.11-.1C5.3 15.27 1.87 12.16 2 8.28c.06-1.7.93-3.33 2.34-4.29 2.64-1.8 5.9-.96 7.66 1.1 1.76-2.06 5.02-2.91 7.66-1.1 1.41.96 2.28 2.59 2.34 4.29.14 3.88-3.3 6.99-8.55 11.76l-.1.09z"/></svg>
     </a>
   </header>
 
@@ -85,19 +85,19 @@
   <main>
 
     <section class="section--1">
-      <div class="qrcode-wrapper">
-        <div id="qrcode">
-        </div>
-        <input id="url" value="https://github.com/ohno" onInput="SVG();">  
-      </div>
+      <div id="qrcode"></div>
     </section>
 
     <section class="section--2">
-      <button onClick='PNG().download({ name: "QR", extension: "png" });'>Download</button>
+      <button onClick='PNG().download({ name: "QR", extension: "png" });' on>Download</button>
+    </section>
+
+    <section class="section--3">
+      <input id="url" value="https://ohno.github.io/github-qr/" onInput="SVG();//this.style.fontSize=2*250/this.value.length">
     </section>
     
-    <section class="section--3">
-      This is an unofficial QR code generator for GitHub profiles and projects. You must follow <a href="https://github.com/logos">GitHub's guidelines</a> to use. Some icons are provided by <a href="https://fonts.google.com/icons">Google Fonts</a>. The background is based on <a href="https://animatedbackgrounds.me/">Animated Backgrounds</a>. This project depends on <a href="https://github.com/kozakdenys/qr-code-styling">QR Code Styling</a> by <a href="https://github.com/kozakdenys">Denys Kozak</a>. More options are available <a href="https://qr-code-styling.com/">here</a>. SVG files do not work on PowerPoint but you can get <a onClick='SVG().download({ name: "QR", extension: "svg" });'>here</a>. Are you rich? You can <a href="https://github.com/sponsors/ohno">buy me a coffee</a>.
+    <section class="section--4">
+      This is an unofficial QR code generator for GitHub profiles and projects. You must follow <a href="https://github.com/logos">GitHub's guidelines</a> to use. Some icons are provided by <a href="https://fonts.google.com/icons">Google Fonts</a>. The background is based on <a href="https://animatedbackgrounds.me/">Animated Backgrounds</a>. This project depends on <a href="https://github.com/kozakdenys/qr-code-styling">QR Code Styling</a> by <a href="https://github.com/kozakdenys">Denys Kozak</a>. More options are available <a href="https://qr-code-styling.com/">here</a>. SVG files do not work on PowerPoint but you can get <a onClick='SVG().download({ name: "QR", extension: "svg" });'>here</a>. Are you rich? You can <a href="https://github.com/sponsors/ohno">buy me a coffee</a>☕
     </section>
 
   </section>  

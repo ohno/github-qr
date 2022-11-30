@@ -38,7 +38,7 @@ header {
   z-index: 2;
   color: #24292F;
   background: #FFFFFFF0;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.20);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -87,9 +87,24 @@ header .logo h1 span {
   -webkit-text-fill-color: transparent; */
 }
 
-header .menu img {
+header a.menu:hover{
+  opacity: 1;
+}
+
+header .menu,
+header .menu svg {
   width: 28px;
   height: 28px;
+  transition: 0.2s;
+}
+
+.heart {
+  transition: 0.2s;
+}
+
+.heart:hover {
+  fill: #BF3989;
+  transition: 0.2s;
 }
 
 main {
@@ -106,7 +121,7 @@ footer{
   z-index: 2;
   position: relative;
   color: rgba(0, 0, 0, 0.54);
-	border-top: 1px solid rgba(0, 0, 0, 0.20);
+	/* border-top: 1px solid rgba(0, 0, 0, 0.2); */
 	display: flex;
 	align-items: center;
   justify-content: center;
@@ -140,6 +155,7 @@ footer{
 /* main */
 
 .section--1 {
+  padding-top: 40px;
   padding-bottom: 20px;
   display: flex;
   align-items: center;
@@ -155,60 +171,58 @@ footer{
 }
 
 .section--3 {
-  padding-bottom: 50px;
+  max-width: 600px;
+  padding-bottom: 40px;
+}
+
+.section--4 {
+  padding-bottom: 40px;
   max-width: 600px;
   text-align: justify;
 }
 
 @media screen and (max-width:840px) {
+  .section--1 {
+    padding-bottom: 30px;
+  }
   .section--2 {
-    padding-bottom: 20px;
+    padding-bottom: 30px;
   }
   .section--3 {
-    padding-bottom: 0;
+    padding-bottom: 20px;
+  }
+  .section--4 {
+    /* padding-bottom: 0; */
   }
 }
 
-.qrcode-wrapper {
+#qrcode {
   background: #FFFFFFF0;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.20);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   width: 200px;
-  padding-top: 25px;
-  padding-left: 25px;
-  padding-right: 25px;
-  padding-bottom: 0;
+  padding: 25px;
   border-radius: 10px;
   transition: 0.2s;
 }
 
-.qrcode-wrapper:focus-within {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.40);
-  transition: 0.3s;
-}
-
-.qrcode-wrapper:focus-within input,
-.qrcode-wrapper:focus-within textarea {
-  color: #00C8C8;
-}
-
-#qrcode {
-  width: 200px;
-}
-
-input,
-input[type="text"] {
-  width: 200px;
+input {
+  width: 250px;
+  max-width: 100%;
   height: auto;
-  min-height: 60px;
+  min-height: 45px;
   text-align: center;
   box-sizing: border-box;
-  border-radius: 20px;
   outline: none;
-  resize: vertical;
   background: none;
-  white-space: pre-line;
-  word-break: break-all;
-  overflow-wrap: anywhere;
+  font-size: 17px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  transition: 0.2s;
+}
+
+input:hover,
+input:focus {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  transition: 0.2s;
 }
 
 button {
@@ -220,11 +234,12 @@ button {
   box-sizing: border-box;
   background: #00C8C8F0;
   color: #FFFFFF;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.20);
+  opacity: 1;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   transition: 0.2s;
 }
 
 button:hover {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.40);
-  transition: 0.3s;
+  opacity: 1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }

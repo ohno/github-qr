@@ -9,7 +9,7 @@ function SVG() {
   var parent = document.getElementById('qrcode');
   var url = document.getElementById('url').value;
   if (url=="") {
-    url = "https://github.com/ohno";
+    url = "https://ohno.github.io/github-qr/";
   }
   while (parent.lastChild) {
     parent.removeChild(parent.lastChild);
