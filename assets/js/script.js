@@ -75,8 +75,8 @@ function PNG() {
 
   // generate // https://github.com/oblakstudio/qr-code-styling
   const qrCode = new QRCodeStyling({
-    width: 1200,
-    height: 1200,
+    width: 480,
+    height: 480,
     type: "canvas",
     data: url,
     // image: "./assets/img/github.svg",
