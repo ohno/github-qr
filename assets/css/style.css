@@ -103,7 +103,7 @@ header a.menu:hover {
 }
 
 .heart:hover {
-  fill: #BF3989;
+  fill-opacity: 1;
   transition: 0.2s;
 }
 
@@ -189,7 +189,7 @@ footer{
     padding-bottom: 25px;
   }
   .section--3 {
-    padding-bottom: 25px;
+    padding-bottom: 30px;
   }
   .section--4 {
     padding-bottom: 10px;
