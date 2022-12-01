@@ -176,7 +176,7 @@ footer{
 }
 
 .section--4 {
-  padding-bottom: 10px;
+  /* padding-bottom: 10px; */
   max-width: 600px;
   text-align: justify;
 }
@@ -192,7 +192,7 @@ footer{
     padding-bottom: 30px;
   }
   .section--4 {
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
   }
 }
 
